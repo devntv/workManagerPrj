@@ -1,34 +1,80 @@
-.App {
-  text-align: center;
+.mt-15 {
+  margin-top: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.designTag {
+  font-size: 40px;
+  background: -webkit-linear-gradient(45deg, #09009f, #12b955 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  height: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.designTag2 {
+  font-size: 25px;
+  color: #61dafb;
+  height: 200px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Alink {
+  text-decoration: none;
 }
-
-.App-link {
+.mgl-5 {
+  margin-left: 5px;
+  animation: reactXoay infinite 5s linear;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.reactBG {
+  background-color: #20232a;
+  border-radius: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.reactBG a {
+  text-decoration: none;
+  font-size: 30px;
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
+.text-right {
+  margin-left: 230px;
+  cursor: pointer;
+}
+.text-right:hover {
+  color: rgb(226, 145, 145);
+}
+.allBg {
+  background-color: #2e333c;
+  border-radius: 10px;
+  position: relative;
+}
+.allBg::after {
+  background-image: url(/img/removeReactjs.png);
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: 0px;
+  position: absolute;
+  left: 777px;
+  right: 0px;
+  background-size: 230px;
+  bottom: 0px;
+  opacity: 0.15;
+  
+}
+.mr-5{
+  margin-right: 5px;
+}
+.Sort-Slect::after{
+  content: "❤";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+  color: cornflowerblue;
+}
+@keyframes reactXoay {
   from {
     transform: rotate(0deg);
   }
